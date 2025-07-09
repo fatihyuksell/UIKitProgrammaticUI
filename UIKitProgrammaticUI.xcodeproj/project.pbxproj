@@ -9,21 +9,24 @@
 /* Begin PBXBuildFile section */
 		E61B794D2E1BAE4C004B3049 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B794C2E1BAE4C004B3049 /* AppDelegate.swift */; };
 		E61B794F2E1BAE4C004B3049 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B794E2E1BAE4C004B3049 /* SceneDelegate.swift */; };
-		E61B79512E1BAE4C004B3049 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B79502E1BAE4C004B3049 /* ViewController.swift */; };
-		E61B79542E1BAE4C004B3049 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E61B79532E1BAE4C004B3049 /* Base */; };
+		E61B79512E1BAE4C004B3049 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B79502E1BAE4C004B3049 /* FirstScreen.swift */; };
 		E61B79562E1BAE4D004B3049 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61B79552E1BAE4D004B3049 /* Assets.xcassets */; };
 		E61B79592E1BAE4D004B3049 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = E61B79582E1BAE4D004B3049 /* Base */; };
+		E61B79612E1BB1C0004B3049 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B79602E1BB1C0004B3049 /* SecondScreen.swift */; };
+		E61B79632E1D96BF004B3049 /* UIKitLiquidGlassExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61B79622E1D96BF004B3049 /* UIKitLiquidGlassExample.swift */; };
+		E61B79662E1D9A6A004B3049 /* Inject in Frameworks */ = {isa = PBXBuildFile; productRef = E61B79652E1D9A6A004B3049 /* Inject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E61B79492E1BAE4C004B3049 /* UIKitProgrammaticUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIKitProgrammaticUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E61B794C2E1BAE4C004B3049 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E61B794E2E1BAE4C004B3049 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E61B79502E1BAE4C004B3049 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E61B79532E1BAE4C004B3049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E61B79502E1BAE4C004B3049 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
 		E61B79552E1BAE4D004B3049 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E61B79582E1BAE4D004B3049 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E61B795A2E1BAE4D004B3049 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E61B79602E1BB1C0004B3049 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
+		E61B79622E1D96BF004B3049 /* UIKitLiquidGlassExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitLiquidGlassExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E61B79662E1D9A6A004B3049 /* Inject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,11 +62,12 @@
 			children = (
 				E61B794C2E1BAE4C004B3049 /* AppDelegate.swift */,
 				E61B794E2E1BAE4C004B3049 /* SceneDelegate.swift */,
-				E61B79502E1BAE4C004B3049 /* ViewController.swift */,
-				E61B79522E1BAE4C004B3049 /* Main.storyboard */,
+				E61B79502E1BAE4C004B3049 /* FirstScreen.swift */,
 				E61B79552E1BAE4D004B3049 /* Assets.xcassets */,
 				E61B79572E1BAE4D004B3049 /* LaunchScreen.storyboard */,
 				E61B795A2E1BAE4D004B3049 /* Info.plist */,
+				E61B79602E1BB1C0004B3049 /* SecondScreen.swift */,
+				E61B79622E1D96BF004B3049 /* UIKitLiquidGlassExample.swift */,
 			);
 			path = UIKitProgrammaticUI;
 			sourceTree = "<group>";
@@ -83,6 +88,9 @@
 			dependencies = (
 			);
 			name = UIKitProgrammaticUI;
+			packageProductDependencies = (
+				E61B79652E1D9A6A004B3049 /* Inject */,
+			);
 			productName = UIKitProgrammaticUI;
 			productReference = E61B79492E1BAE4C004B3049 /* UIKitProgrammaticUI.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +119,9 @@
 				Base,
 			);
 			mainGroup = E61B79402E1BAE4C004B3049;
+			packageReferences = (
+				E61B79642E1D9A6A004B3049 /* XCRemoteSwiftPackageReference "Inject" */,
+			);
 			productRefGroup = E61B794A2E1BAE4C004B3049 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +138,6 @@
 			files = (
 				E61B79562E1BAE4D004B3049 /* Assets.xcassets in Resources */,
 				E61B79592E1BAE4D004B3049 /* Base in Resources */,
-				E61B79542E1BAE4C004B3049 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,8 +148,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E61B79512E1BAE4C004B3049 /* ViewController.swift in Sources */,
+				E61B79512E1BAE4C004B3049 /* FirstScreen.swift in Sources */,
+				E61B79612E1BB1C0004B3049 /* SecondScreen.swift in Sources */,
 				E61B794D2E1BAE4C004B3049 /* AppDelegate.swift in Sources */,
+				E61B79632E1D96BF004B3049 /* UIKitLiquidGlassExample.swift in Sources */,
 				E61B794F2E1BAE4C004B3049 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +159,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E61B79522E1BAE4C004B3049 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E61B79532E1BAE4C004B3049 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E61B79572E1BAE4D004B3049 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,7 +301,6 @@
 				INFOPLIST_FILE = UIKitProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -305,6 +308,10 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-Xlinker",
+					"-interposable",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.fatihyuksel.UIKitProgrammaticUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -325,7 +332,6 @@
 				INFOPLIST_FILE = UIKitProgrammaticUI/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -363,6 +369,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E61B79642E1D9A6A004B3049 /* XCRemoteSwiftPackageReference "Inject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/krzysztofzablocki/Inject";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E61B79652E1D9A6A004B3049 /* Inject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E61B79642E1D9A6A004B3049 /* XCRemoteSwiftPackageReference "Inject" */;
+			productName = Inject;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = E61B79412E1BAE4C004B3049 /* Project object */;
 }
